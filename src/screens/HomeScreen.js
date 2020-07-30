@@ -6,7 +6,7 @@ import ADI from '../images/adi.png';
 import Facebook from '../images/facebook.png';
 import { Hidden } from '@material-ui/core';
 
-const home = () => {
+const Home = () => {
     const style = {
         mobileText: {
             fontSize: 15
@@ -84,4 +84,4 @@ const home = () => {
     );
 }
 
-export default home;
+export default Home;

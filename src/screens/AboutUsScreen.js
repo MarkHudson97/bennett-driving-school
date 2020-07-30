@@ -2,11 +2,7 @@ import React from 'react';
 import DrawerComponent from '../components/NewDrawer';
 import { Hidden } from '@material-ui/core';
 
-
 const About = () => {
-   // const style = {
-   //    display: 'flex', justifyContent: 'center', alignItems: 'center'
-   // }
    const style = {
       mobileText: {
          fontSize: 15
