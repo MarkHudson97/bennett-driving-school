@@ -5,7 +5,8 @@ import Home from './screens/HomeScreen';
 import About from './screens/AboutUsScreen';
 import Contact from './screens/ContactScreen';
 import Prices from './screens/PricesScreen';
-import Info from './screens/UsefulInfoScreen';
+import EDT from './screens/EDTInformation';
+import Info from './screens/ExtraInformation';
 import Error from './screens/ErrorScreen';
 // import Navigation from './Navigation';
 
@@ -21,6 +22,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/prices" component={Prices} />
+            <Route path="/edt" component={EDT} />
             <Route path="/info" component={Info} />
             <Route component={Error} />
           </Switch>

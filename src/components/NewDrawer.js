@@ -97,7 +97,8 @@ export default function ResponsiveDrawer(props) {
                 <MenuItem component={Link} to="/" >Home</MenuItem>
                 <MenuItem component={Link} to="/about">About Us</MenuItem>
                 <MenuItem component={Link} to="/prices">Prices</MenuItem>
-                <MenuItem component={Link} to="/info">Useful Information</MenuItem>
+                <MenuItem component={Link} to="/edt">Information about EDT</MenuItem>
+                <MenuItem component={Link} to="/info">Extra Information</MenuItem>
                 <MenuItem component={Link} to="/contact">Contact Us</MenuItem>
             </MenuList>
         </div>

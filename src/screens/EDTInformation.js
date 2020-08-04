@@ -27,7 +27,7 @@ const Useful = () => {
         <DrawerComponent>
             <div>
                 <h1 style={style.positioning}>
-                    Useful Information
+                    Information about EDT
                 </h1>
 
                 <h2 style={style.positioning}>
@@ -35,14 +35,18 @@ const Useful = () => {
                 </h2>
 
                 <Hidden xsDown>
-                    <p style={style.notMobileText}>Essential Driver Training (EDT) was introduced to help students learn vital driving skills and to improve their knowledge and understanding of road safety post doing their theory test.
-                     The course consists of 12, 1 hour lessons or 6 two hour lessons.</p>
+                    <p style={style.notMobileText}>Essential Driver Training (EDT) is a training course that teaches fundamental driving skills
+                    to learner car drivers and improves their knowledge and understanding of road safety post theory test completion.
+                    EDT is mandatory for all learners who received their first driving permit on or after 4 April 2011. The course consists
+                       of 12, 1-hour lessons or 6 two hour lessons which must be completed before the driving test.</p>
 
-                    <p style={style.notMobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end of said lesson.
-                      It is important to remember that the EDT course alone is not enough to make you a competent driver and additional lessons and practice with your instructor or a qualified driver with two years experience can be used to bring your skills to a suitable level before progressing on to the next EDT course lesson.</p>
+                    <p style={style.notMobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end
+                    of said lesson. It is important to remember that the EDT course alone is not enough to make you a competent driver and
+                    additional lessons and practice with your instructor or a qualified driver with two years experience can be used to
+                       bring your skills to a suitable level before progressing on to the next EDT course lesson.</p>
 
-                    <p style={style.notMobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end of said lesson.
-                      It is important to remember that the EDT course alone is not enough to make you a competent driver and additional lessons and practice with your instructor or a qualified driver with two years experience can be used to bring your skills to a suitable level before progressing on to the next EDT course lesson.</p>
+                    {/* <p style={style.notMobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end of said lesson.
+                      It is important to remember that the EDT course alone is not enough to make you a competent driver and additional lessons and practice with your instructor or a qualified driver with two years experience can be used to bring your skills to a suitable level before progressing on to the next EDT course lesson.</p> */}
 
                     <ol style={style.notMobileTextCentered}>Essential Driver Training Syllabus</ol>
                     <ol style={style.notMobileTextCentered}>Lesson 1:   Car Controls & Safety Checks</ol>
@@ -68,19 +72,21 @@ const Useful = () => {
 
                     <a style={style.notMobileLinkPositioning} href="https://www.ndls.ie/" target="_blank" >Visit The National Driving Licence Service Here!</a>
 
-                    <a style={style.notMobileLinkPositioning} href="https://www.rsa.ie/en/RSA/Learner-Drivers/Driver-Training/Car-Training-EDT/Learning-to-drive-videos/" target="_blank">Watch Some Learning To Drive Videos By The RSA Here!</a>
-
                 </Hidden>
 
                 <Hidden smUp>
-                <p style={style.mobileText}>Essential Driver Training (EDT) was introduced to help students learn vital driving skills and to improve their knowledge and understanding of road safety post doing their theory test.
-                     The course consists of 12, 1 hour lessons or 6 two hour lessons.</p>
+                    <p style={style.mobileText}>Essential Driver Training (EDT) is a training course that teaches fundamental driving skills
+                    to learner car drivers and improves their knowledge and understanding of road safety post theory test completion.
+                    EDT is mandatory for all learners who received their first driving permit on or after 4 April 2011. The course consists
+                       of 12, 1-hour lessons or 6 two hour lessons.</p>
 
-                    <p style={style.mobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end of said lesson.
-                      It is important to remember that the EDT course alone is not enough to make you a competent driver and additional lessons and practice with your instructor or a qualified driver with two years experience can be used to bring your skills to a suitable level before progressing on to the next EDT course lesson.</p>
+                    <p style={style.mobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end
+                    of said lesson. It is important to remember that the EDT course alone is not enough to make you a competent driver and
+                    additional lessons and practice with your instructor or a qualified driver with two years experience can be used to
+                       bring your skills to a suitable level before progressing on to the next EDT course lesson.</p>
 
-                    <p style={style.mobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end of said lesson.
-                      It is important to remember that the EDT course alone is not enough to make you a competent driver and additional lessons and practice with your instructor or a qualified driver with two years experience can be used to bring your skills to a suitable level before progressing on to the next EDT course lesson.</p>
+                    {/* <p style={style.mobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end of said lesson.
+                      It is important to remember that the EDT course alone is not enough to make you a competent driver and additional lessons and practice with your instructor or a qualified driver with two years experience can be used to bring your skills to a suitable level before progressing on to the next EDT course lesson.</p> */}
 
                     <ol style={style.mobileText}>Essential Driver Training Syllabus</ol>
                     <ol style={style.mobileText}>Lesson 1:   Car Controls & Safety Checks</ol>
@@ -105,8 +111,6 @@ const Useful = () => {
                     <a style={style.mobileLinkPositioning} href="https://www.rsa.ie/en/RSA/Learner-Drivers/The-Driving-Test/Apply-online/" target="_blank">Book Your Driving Test Here!</a>
                     <br />
                     <a style={style.mobileLinkPositioning} href="https://www.ndls.ie/" target="_blank">Visit The National Driving Licence Service Here!</a>
-                    <br />
-                    <a style={style.mobileLinkPositioning} href="https://www.rsa.ie/en/RSA/Learner-Drivers/Driver-Training/Car-Training-EDT/Learning-to-drive-videos/" target="_blank">Watch Some Learning To Drive Videos By The RSA Here!</a>
                 </Hidden>
 
             </div>
