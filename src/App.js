@@ -8,14 +8,12 @@ import Prices from './screens/PricesScreen';
 import EDT from './screens/EDTInformation';
 import Info from './screens/ExtraInformation';
 import Error from './screens/ErrorScreen';
-// import Navigation from './Navigation';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div>
-          {/* <Navigation /> */}
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/home" component={Home} exact />

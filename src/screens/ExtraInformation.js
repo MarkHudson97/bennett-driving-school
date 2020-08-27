@@ -1,6 +1,7 @@
 import React from 'react';
 import DrawerComponent from '../components/NewDrawer';
 import { Hidden } from '@material-ui/core';
+import Lesson from '../images/lesson.jpg';
 
 const Extra = () => {
     const style = {
@@ -30,11 +31,15 @@ const Extra = () => {
                     Extra Information
                 </h1>
 
-                <h2 style={style.positioning}>
-                    Learning to drive videos
-                </h2>
-
                 <Hidden xsDown>
+                    <div style={style.positioning}>
+                        <img src={Lesson} alt="lesson image" width="350" />
+                    </div>
+
+                    <h2 style={style.positioning}>
+                        Learning to drive videos
+                    </h2>
+
                     <p style={style.notMobileText}>The RSA have made a series of ‘Learning to Drive’ videos explaining everything you need to
                     know about the practical driving test and becoming a safe and socially responsible driver. There are 13 videos in the series,
                     each of which deals with a different aspect of the ‘learning to drive’ process for driving a car, motorcycle, bus, or truck.
@@ -44,6 +49,14 @@ const Extra = () => {
                 </Hidden>
 
                 <Hidden smUp>
+                    <div style={style.positioning}>
+                        <img src={Lesson} alt="lesson image" width="270" height="150" />
+                    </div>
+
+                    <h2 style={style.positioning}>
+                        Learning to drive videos
+                    </h2>
+
                     <p style={style.mobileText}>The RSA have made a series of ‘Learning to Drive’ videos explaining everything you need to
                     know about the practical driving test and becoming a safe and socially responsible driver. There are 13 videos in the series,
                     each of which deals with a different aspect of the ‘learning to drive’ process for driving a car, motorcycle, bus, or truck.

@@ -1,6 +1,7 @@
 import React from 'react';
 import DrawerComponent from '../components/NewDrawer';
 import { Hidden } from '@material-ui/core';
+import Logbook from '../images/logbook.jpg';
 
 const Useful = () => {
     const style = {
@@ -30,11 +31,15 @@ const Useful = () => {
                     Information about EDT
                 </h1>
 
-                <h2 style={style.positioning}>
-                    What is EDT and how does it work?
-                </h2>
-
                 <Hidden xsDown>
+                    <div style={style.positioning}>
+                        <img src={Logbook} alt="logbook for lessons" width="350" />
+                    </div>
+
+                    <h2 style={style.positioning}>
+                        What is EDT and how does it work?
+                    </h2>
+
                     <p style={style.notMobileText}>Essential Driver Training (EDT) is a training course that teaches fundamental driving skills
                     to learner car drivers and improves their knowledge and understanding of road safety post theory test completion.
                     EDT is mandatory for all learners who received their first driving permit on or after 4 April 2011. The course consists
@@ -75,6 +80,14 @@ const Useful = () => {
                 </Hidden>
 
                 <Hidden smUp>
+                    <div style={style.positioning}>
+                        <img src={Logbook} alt="logbook for lessons" width="270" height="150" />
+                    </div>
+
+                    <h2 style={style.positioning}>
+                        What is EDT and how does it work?
+                    </h2>
+
                     <p style={style.mobileText}>Essential Driver Training (EDT) is a training course that teaches fundamental driving skills
                     to learner car drivers and improves their knowledge and understanding of road safety post theory test completion.
                     EDT is mandatory for all learners who received their first driving permit on or after 4 April 2011. The course consists

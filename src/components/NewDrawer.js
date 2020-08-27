@@ -141,7 +141,7 @@ export default function ResponsiveDrawer(props) {
                     </Hidden>
 
                     <Typography variant="h6" noWrap /*component={Link} to="/"*/>
-                        Tony Bennett Driving School
+                        Bennett Driving School
                     </Typography>
                 </Toolbar>
             </AppBar>
