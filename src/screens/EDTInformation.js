@@ -24,6 +24,7 @@ const Useful = () => {
             display: 'flex', justifyContent: 'center', textDecoration: 'none', fontSize: 15, textAlign: 'center'
         }
     }
+
     return (
         <DrawerComponent>
             <div>
@@ -49,9 +50,6 @@ const Useful = () => {
                     of said lesson. It is important to remember that the EDT course alone is not enough to make you a competent driver and
                     additional lessons and practice with your instructor or a qualified driver with two years experience can be used to
                        bring your skills to a suitable level before progressing on to the next EDT course lesson.</p>
-
-                    {/* <p style={style.notMobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end of said lesson.
-                      It is important to remember that the EDT course alone is not enough to make you a competent driver and additional lessons and practice with your instructor or a qualified driver with two years experience can be used to bring your skills to a suitable level before progressing on to the next EDT course lesson.</p> */}
 
                     <ol style={style.notMobileTextCentered}>Essential Driver Training Syllabus</ol>
                     <ol style={style.notMobileTextCentered}>Lesson 1:   Car Controls & Safety Checks</ol>
@@ -97,9 +95,6 @@ const Useful = () => {
                     of said lesson. It is important to remember that the EDT course alone is not enough to make you a competent driver and
                     additional lessons and practice with your instructor or a qualified driver with two years experience can be used to
                        bring your skills to a suitable level before progressing on to the next EDT course lesson.</p>
-
-                    {/* <p style={style.mobileText}>Each lesson has a set of expected outcomes describing what you should be able to do by the end of said lesson.
-                      It is important to remember that the EDT course alone is not enough to make you a competent driver and additional lessons and practice with your instructor or a qualified driver with two years experience can be used to bring your skills to a suitable level before progressing on to the next EDT course lesson.</p> */}
 
                     <ol style={style.mobileText}>Essential Driver Training Syllabus</ol>
                     <ol style={style.mobileText}>Lesson 1:   Car Controls & Safety Checks</ol>

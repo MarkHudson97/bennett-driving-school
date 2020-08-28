@@ -44,7 +44,6 @@ export default function ContactUs() {
     document.getElementById("contact-form").reset();
   }
 
-
   return (
     <DrawerComponent>
       <div>
@@ -54,7 +53,6 @@ export default function ContactUs() {
             </h1>
 
         <Hidden xsDown>
-
           <form style={style.notMobileForm} id="contact-form" onSubmit={sendEmail} >
             <label>Name</label>
             <input style={style.notMobileInput} type="text" name="from_name" placeholder="Joe Bloggs" required />
@@ -70,7 +68,6 @@ export default function ContactUs() {
 
             <input type="submit" value="Send" />
           </form>
-
         </Hidden>
 
         <Hidden smUp>

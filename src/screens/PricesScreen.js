@@ -26,6 +26,7 @@ const Price = () => {
             display: 'flex', justifyContent: 'center', alignItems: 'center'
         }
     }
+
     return (
         <DrawerComponent>
             <div>
@@ -37,11 +38,11 @@ const Price = () => {
                     <p style={style.notMobileText}>
                         At Bennett’s Driving School we offer affordable and competitive pricing for driving lessons. These lessons can be
                         purchased as a package or you can pay as you go.
-            </p>
+                    </p>
 
                     <p style={style.notMobileTextCentered}>
                         Prices effective as of April 1st, 2020.
-            </p>
+                    </p>
 
                     <ol style={style.notMobileTextCentered}>One Hour Driving Lesson €35</ol>
                     <ol style={style.notMobileTextCentered}>Two Hour Driving Lesson €60</ol>
@@ -54,23 +55,23 @@ const Price = () => {
 
                     <p style={style.notMobileTextCentered}>
                         * Time given before exam to practice and calm nerves
-            </p>
+                    </p>
 
 
                     <p style={style.notMobileTextCenteredRed}>
-                        <b>CANCELLATIONS MADE LESS THAN 24 HOURS BEFORE ARRANGED TIME WILL RESULT IN BEING CHARGED FULL LESSON PRICE</b></p>
-
+                        <b>CANCELLATIONS MADE LESS THAN 24 HOURS BEFORE ARRANGED TIME WILL RESULT IN BEING CHARGED FULL LESSON PRICE</b>
+                    </p>
                 </Hidden>
 
                 <Hidden smUp>
                     <p style={style.mobileText}>
                         At Bennett’s Driving School we offer affordable and competitive pricing for driving lessons. These lessons can be
                         purchased as a package or you can pay as you go.
-            </p>
+                    </p>
 
                     <p style={style.mobileTextCentered}>
                         Prices effective as of April 1st, 2020.
-            </p>
+                    </p>
 
                     <ol style={style.mobileTextCentered}>One Hour Driving Lesson €35</ol>
                     <ol style={style.mobileTextCentered}>Two Hour Driving Lesson €60</ol>
@@ -83,13 +84,13 @@ const Price = () => {
 
                     <p style={style.mobileTextCentered}>
                         * Time given before exam to practice and calm nerves
-            </p>
+                    </p>
 
 
                     <p style={style.mobileTextCenteredRed}>
-                        <b>CANCELLATIONS MADE LESS THAN 24 HOURS BEFORE ARRANGED TIME WILL RESULT IN BEING CHARGED FULL LESSON PRICE</b></p>
+                        <b>CANCELLATIONS MADE LESS THAN 24 HOURS BEFORE ARRANGED TIME WILL RESULT IN BEING CHARGED FULL LESSON PRICE</b>
+                    </p>
                 </Hidden>
-
             </div>
         </DrawerComponent>
     );

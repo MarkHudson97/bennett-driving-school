@@ -9,7 +9,7 @@ import { AppBar, CssBaseline, Drawer, Hidden, IconButton, Toolbar, Typography, m
 
 import { Link } from 'react-router-dom';
 
-const drawerWidth = 240;
+const drawerWidth = 200;
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -140,7 +140,7 @@ export default function ResponsiveDrawer(props) {
                         </IconButton>
                     </Hidden>
 
-                    <Typography variant="h6" noWrap /*component={Link} to="/"*/>
+                    <Typography variant="h6" noWrap component={Link} style={{ textDecoration: "none", color: "white" }} to="/">
                         Bennett Driving School
                     </Typography>
                 </Toolbar>

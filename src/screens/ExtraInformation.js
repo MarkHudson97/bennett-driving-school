@@ -24,6 +24,7 @@ const Extra = () => {
             display: 'flex', justifyContent: 'center', textDecoration: 'none', fontSize: 15, textAlign: 'center'
         }
     }
+
     return (
         <DrawerComponent>
             <div>

@@ -24,8 +24,6 @@ const About = () => {
                About Us
             </h1>
 
-
-
             <Hidden xsDown>
                <div style={style.positioning}>
                   <img src={Roof} alt="roof of car" width="350" />
